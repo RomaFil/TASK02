@@ -8,3 +8,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Local git-init config (приватні дані - не комітити)
+.git_myconfig
