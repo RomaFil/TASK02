@@ -57,3 +57,12 @@ git pull origin main --allow-unrelated-histories
 git push origin main
 ```
 Відправляє змерджений результат (локальні + підтягнуті з GitHub зміни) назад у віддалений репозиторій — після цього обидва репозиторії мають однаковий вміст.
+
+## Додавання README.md у репозиторій
+
+```
+git add .
+git commit -m "Add README"
+git push origin main
+```
+Додає README.md в індекс, фіксує коміт і відправляє на GitHub.
