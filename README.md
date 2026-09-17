@@ -66,3 +66,14 @@ git commit -m "Add README"
 git push origin main
 ```
 Додає README.md в індекс, фіксує коміт і відправляє на GitHub.
+
+## .gitignore
+
+Файл, що вказує Git, які файли/папки не відстежувати (тимчасові файли ОС, налаштування редактора, логи):
+```
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+```
